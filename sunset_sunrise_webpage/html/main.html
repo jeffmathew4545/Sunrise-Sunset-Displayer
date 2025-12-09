@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sunset/Sunrise Display</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="../styles/main.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="main-name">
+                <p>Sunset and Sunrise Displayer</p>
+            </div>
+            <div class="address-input-div">
+                <input type="text" class="js-address-input">
+            </div>
+            <div class="country-select-div">
+                <input type="text" class="js-country-input">
+            </div>
+            <div class="date-input-div">
+                <input type="date" class="js-date-input">
+            </div>
+            <div class="button-input">
+                <input type="button" value="Go" class="js-button">
+            </div>
+        </div>
+        <div class="display">
+            <p class="js-place-name">Place:</p>
+            <p class="js-date">Date:</p>
+            <p class="js-lat-long">Lat and Long:</p>
+            <p class="js-sunrise">Sunrise:</p>
+            <p class="js-sunset">Sunset:</p>
+        </div>
+        <script src="../scripts/config.js"></script>
+        <script src="../scripts/UTCConversion.js"></script>
+        <script src="../scripts/main.js"></script>
+    </body>
+</html>
